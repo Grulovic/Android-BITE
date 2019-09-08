@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_delivery_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sgrulovic.sg_final_project.DeliveryInfo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/del_logo"
+            android:layout_height="175dp" />
+
+        <TextView
+            android:text="del_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/del_logo"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/del_desc"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            android:textAllCaps="false"
+            android:layout_weight="1.01" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="view menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/del_menu"
+                android:layout_below="@+id/del_pics"
+                android:layout_alignLeft="@+id/del_pics"
+                android:layout_alignStart="@+id/del_pics"
+                android:textSize="18sp"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="view pics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/del_desc"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/del_pics"
+                android:textSize="18sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="GIVE RATING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/del_rating"
+                android:textSize="18sp"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="ORDER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/del_menu"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/del_order"
+                android:textSize="18sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Button
+    android:text="BACK"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/del_back"
+    android:textSize="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>

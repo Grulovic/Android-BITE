@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">BITE</string>
+
+    <string-array name="del_places_string_array">
+        <item>Burger Delivery Place</item>
+        <item>Coffee Delivery Place</item>
+        <item>Pizza Delivery Place</item>
+        <item>Sushi Delivery Place</item>
+    </string-array>
+
+    <string-array name="del_places_description">
+        <item>Burger Delivery Place has a wide variety of burgers.</item>
+        <item>Coffe Delivery Place has a wide variety of coffee.</item>
+        <item>Pizza Delivery Place has a wide variety of pizza.</item>
+        <item>Sushi Delivery Place has a wide variety of sushi.</item>
+    </string-array>
+
+
+    <string-array name="d1_menu">
+        <item>Burger 1</item>
+        <item>Burger 2</item>
+        <item>Burger 3</item>
+        <item>Burger 4</item>
+        <item>Burger 5</item>
+        <item>Burger 6</item>
+        <item>Burger 7</item>
+        <item>Burger 8</item>
+        <item>Burger 9</item>
+        <item>Burger 10</item>
+        <item>Burger 11</item>
+        <item>Burger 12</item>
+        <item>Burger 13</item>
+        <item>Burger 14</item>
+        <item>Burger 15</item>
+        <item>Burger 16</item>
+    </string-array>
+
+    <string-array name="d2_menu">
+        <item>Coffee 1</item>
+        <item>Coffee 2</item>
+        <item>Coffee 3</item>
+        <item>Coffee 4</item>
+        <item>Coffee 5</item>
+        <item>Coffee 6</item>
+        <item>Coffee 7</item>
+        <item>Coffee 8</item>
+        <item>Coffee 9</item>
+        <item>Coffee 10</item>
+        <item>Coffee 11</item>
+        <item>Coffee 12</item>
+    </string-array>
+
+    <string-array name="d3_menu">
+        <item>Pizza 1</item>
+        <item>Pizza 2</item>
+        <item>Pizza 3</item>
+        <item>Pizza 4</item>
+        <item>Pizza 5</item>
+        <item>Pizza 6</item>
+        <item>Pizza 7</item>
+        <item>Pizza 8</item>
+    </string-array>
+
+    <string-array name="d4_menu">
+        <item>Sushi 1</item>
+        <item>Sushi 2</item>
+        <item>Sushi 3</item>
+        <item>Sushi 4</item>
+    </string-array>
+
+    <string-array name="d1_comment">
+        <item>Awesome place!</item>
+        <item>Good place!</item>
+        <item>Nice place!</item>
+        <item>Meh place!</item>
+        <item>Bad place!</item>
+    </string-array>
+    <string-array name="d1_rating">
+        <item>RATING: 5</item>
+        <item>RATING: 4</item>
+        <item>RATING: 3</item>
+        <item>RATING: 2</item>
+        <item>RATING: 1</item>
+    </string-array>
+
+    <string-array name="d2_comment">
+        <item>Awesome place!</item>
+        <item>Good place!</item>
+        <item>Nice place!</item>
+        <item>Meh place!</item>
+        <item>Bad place!</item>
+    </string-array>
+    <string-array name="d2_rating">
+        <item>RATING: 5</item>
+        <item>RATING: 4</item>
+        <item>RATING: 3</item>
+        <item>RATING: 2</item>
+        <item>RATING: 1</item>
+    </string-array>
+
+    <string-array name="d3_comment">
+        <item>Awesome place!</item>
+        <item>Good place!</item>
+        <item>Nice place!</item>
+        <item>Meh place!</item>
+        <item>Bad place!</item>
+    </string-array>
+    <string-array name="d3_rating">
+        <item>RATING: 5</item>
+        <item>RATING: 4</item>
+        <item>RATING: 3</item>
+        <item>RATING: 2</item>
+        <item>RATING: 1</item>
+    </string-array>
+
+    <string-array name="d4_comment">
+        <item>Awesome place!</item>
+        <item>Good place!</item>
+        <item>Nice place!</item>
+        <item>Meh place!</item>
+        <item>Bad place!</item>
+    </string-array>
+    <string-array name="d4_rating">
+        <item>RATING: 5</item>
+        <item>RATING: 4</item>
+        <item>RATING: 3</item>
+        <item>RATING: 2</item>
+        <item>RATING: 1</item>
+    </string-array>
+
+</resources>
